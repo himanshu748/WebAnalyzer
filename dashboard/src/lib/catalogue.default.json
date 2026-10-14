@@ -118,6 +118,13 @@
       "group": "security",
       "weight": "light",
       "active": false
+    },
+    {
+      "name": "Robots.txt",
+      "description": "Disallow paths and sensitive entries in robots.txt",
+      "group": "recon",
+      "weight": "light",
+      "active": false
     }
   ],
   "presets": {
@@ -151,7 +158,8 @@
       "Nmap Zero Day Scan",
       "Phishing Domain Protection",
       "Attack Path Planner",
-      "Security.txt"
+      "Security.txt",
+      "Robots.txt"
     ]
   }
 }
